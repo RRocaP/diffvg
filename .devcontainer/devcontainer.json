@@ -1,0 +1,13 @@
+{
+  "name": "diffvg",
+  "image": "diffvg",
+  "runArgs": ["--gpus", "all"],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "ms-python.python",
+    "ms-vscode.cpptools"
+  ],
+  "postCreateCommand": "python setup.py install"
+}
